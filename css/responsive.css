@@ -57,6 +57,51 @@
 		width: 100%;
 		padding: 0 15px;
 	}
+/*------ cmn-sty-sd ------*/
+    .image-cont img {
+		width: 20%;
+	}
+    .expert-list h3 {
+		top: 13%;
+		left: 11%;
+	}
+	.expert-list h5 {
+		top: 25%;
+		left: 11%;
+	}
+    .team-id {
+		left: 16%;
+		bottom: 30%;
+	}
+	.text-align-center {
+		text-align: center;
+	}
+	.banner-content {
+		height: 70vh;
+	}
+	.banner-information {
+		padding-top: 120px;
+	}
+}
+@media (max-width: 280px) {
+	.image-cont img {
+		width: 25%;
+	}
+	.expert-list h3 {
+		top: 11%;
+		left: 7%;
+	}
+	.expert-list h5 {
+		top: 20%;
+		left: 7%;
+	}
+		.team-id {
+		bottom: 38%;
+		left: 10%;
+	}
+	.team-id a i {
+		margin: 0 2px;
+	}
 }
 /*-------- m-device ---------*/
 @media (min-width: 667px) and (max-width: 992px) {
@@ -117,6 +162,34 @@
 	.col-md-12 {
 		width: 100%;
 		padding: 0 15px;
+	}
+ /*------- cmn-sty-md -------*/
+    .image-cont img {
+		width: 13%;
+	}
+	.team-id {
+		left: 20%;
+		bottom: 30%;
+	}
+	.list-logo h3 {
+		position: absolute;
+		top: 8%;
+		left: 17%;
+	}
+	.list-logo p {
+		position: absolute;
+		top: 33%;
+		left: 17%;
+	}
+	.expert-list h3 {
+		left: 10%;
+		top: 16%;
+		font-size: 24px;
+	}
+	.expert-list h5 {
+		left: 10%;
+		top: 30%;
+		font-size: 20px;
 	}
 }
 /*-------- large-device ---------*/
@@ -184,10 +257,50 @@
 		width: 100%;
 		padding: 0 15px;
 	}
+ /*------ cmn-sty-ld -------*/
+    .image-cont img {
+		width: 25%;
+	}
+	.image-cont {
+		min-height: 112px;
+	}
+	.list-logo h3 {
+		position: absolute;
+		top: 8%;
+		left: 17%;
+	}
+	.list-logo p {
+		position: absolute;
+		top: 35%;
+		left: 17%;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1024px) {
+	.team-id a i {
+		margin: 0 5px;
+	}
+	.team-id {
+		left: 5%
+	}
 }
  /*------ v-lg-device -------*/
 @media (min-width: 1200px) {
-	.container{
-		width: 1170px;
+	 .container {
+		 width: 1170px;
+		margin: 0 auto;
+	}
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -15px;
+		padding: 0 10px;
+	}
+	.expert-list h3 {
+		top: 12%;
+		left: 12%;
+	}
+	.expert-list h5 {
+		top: 22%;
+		left: 12%;
 	}
 }

@@ -1,5 +1,6 @@
 .container {
     width: 100%;
+	padding: 0 15px;
 }
 .row > * {
 	padding: 0 15px;
@@ -26,7 +27,7 @@
 	margin-bottom: 20px;
 }
 .logo-name > a {
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: 600;
 	text-decoration: none;
 	color: black;
@@ -42,12 +43,13 @@
 }
 .logo-nav ul > li {
     display: inline-block;
+	margin-right: 10px;
 }
 .logo-nav li > a {
     display: block;
 	font-size: 14px;
 	text-decoration: none;
-	padding-right: 25px;
+	padding-right: 20px;
 	color: black;
 	font-weight: 600;
 	font-family: 'raleway',sans-serif;
@@ -173,7 +175,7 @@
 }
 .banner-information h1 {
     color: white;
-	font-size: 35px;
+	font-size: 31px;
 	font-weight: 700;
 	font-family: 'raleway',sans-serif;
 	margin-bottom: 15px;
@@ -264,7 +266,7 @@
 .about-us-information h1 {	
     color: white;
 	font-family: 'raleway',sans-serif;
-	font-size: 25px;
+	font-size: 23px;
 	font-weight: 300;
 	margin-bottom: 25px;
 }
@@ -305,7 +307,7 @@
 .row-content h3 {
 	color: white;
 	font-family: 'raleway',sans-serif;
-	font-size: 25px;
+	font-size: 18px;
 	margin: 15px 0;
 }
 .row-content p {
@@ -342,7 +344,7 @@
 	line-height: 60px;
 }
 .emoji h1 {
-	font-size: 25px;
+	font-size: 24px;
 	font-weight: 900;
 	margin-bottom: 5px;
 }
@@ -380,7 +382,7 @@
 .skill-collection p {
 	font-family: 'poppins',sans-serif;
 	font-size: 20px;
-	padding-left: 25px;
+	padding-left: 20px;
 	display: flex;
 	align-items: center;
 }
@@ -396,6 +398,7 @@
     display: flex;
 }
 .skill-passage h1 {
+	font-size: 24px;
 	padding-bottom: 15px;
 	font-family: 'raleway',sans-serif;
 }
@@ -408,7 +411,7 @@
 	color: #e03a3c;
 	padding-right: 15px;
 	font-weight: 300;
-	font-size: 30px;
+	font-size: 25px;
 }
 .skill-passage p {
 	padding-bottom: 15px;
@@ -418,6 +421,7 @@
 }
 /*---------- banner2 start -----------*/
 .services {
+	padding-top: 18px;
 	margin-bottom: 20px;
 }
 .services-content h1 {
@@ -425,7 +429,7 @@
     text-align: center;
 	text-transform: uppercase;
 	font-family: 'raleway',sans-serif;
-	font-size: 31px;
+	font-size: 28px;
 	font-weight: 300;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
@@ -455,8 +459,9 @@
 	height: auto;
 	border-radius: 3px;
 	margin-bottom: 15px;
-	padding: 20px 0 20px 15px;
+	padding: 20px 0;
 	position: relative;
+	min-height: 155px;
 }
 .list-logo {
 	line-height: 2;
@@ -487,12 +492,12 @@
 }
 /*---------- advertisement start -----------*/
 .advertisement-content {
-	padding-top: 20px;
-	margin-bottom: 25px;
+	padding-top: 18px;
+	margin-bottom: 23px;
 }
 .advertisement-information h1 {
    font-family: 'raleway',sans-serif;
-   font-size: 30px;
+   font-size: 28px;
    font-weight: 900;
    text-align: center;
    text-transform: uppercase;
@@ -610,7 +615,7 @@
 }
 .expert-information h1 {
    font-family: 'raleway',sans-serif;
-   font-size: 30px;
+   font-size: 28px;
    font-weight: 900;
    text-align: center;
    text-transform: uppercase;
@@ -644,7 +649,7 @@
 	margin-bottom: 20px;
 	position: relative;
 	width: 100%;
-	min-height: 256px
+	min-height: 150px;
 }
 .image-cont {
 	position: static;
@@ -656,7 +661,7 @@
 	height: auto;
 	display: flex;
 	border-radius: 7px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 .expert-list h3 {
 	font-family: 'raleway',sans-serif;
@@ -703,12 +708,12 @@
 }
 /*---------- cost start -----------*/
 .cost {
-	padding-top: 20px;
+	padding-top: 19px;
 	margin-bottom: 20px;
 }
 .cost-information h1 {
    font-family: 'raleway',sans-serif;
-   font-size: 30px;
+   font-size: 28px;
    font-weight: 900;
    text-align: center;
    text-transform: uppercase;
@@ -795,12 +800,12 @@ sup {
 }
 /*---------- questions-content start -----------*/
 .questions-content {
-	padding-top: 20px;
+	padding-top: 19px;
 	margin-bottom: 40px;
 }
 .questions h1 {
     font-family: 'poppins',sans-serif;
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: 600;
 	text-align: center;
 	color: black;
@@ -873,7 +878,7 @@ sup {
 }
 .team-information h1 {
    font-family: 'raleway',sans-serif;
-   font-size: 30px;
+   font-size: 28px;
    font-weight: 900;
    text-align: center;
    text-transform: uppercase;
@@ -939,8 +944,9 @@ sup {
 .team-id {
     justify-content: center;
 	position: absolute;
-	bottom: 40%;
+	bottom: 36%;
 	left: 10%;
+	flex-grow: revert;
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.6s ease;
@@ -966,12 +972,12 @@ sup {
 }
 /*---------- forms start -----------*/
 .contact-content {
-	padding-top: 20px;
+	padding-top: 16px;
 	margin-bottom: 35px;
 }
 .contact-information h1 {
    font-family: 'raleway',sans-serif;
-   font-size: 30px;
+   font-size: 28px;
    font-weight: 900;
    text-align: center;
    text-transform: uppercase;
