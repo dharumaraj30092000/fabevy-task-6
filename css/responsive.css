@@ -3,8 +3,8 @@
 		margin: 0 auto;
 	}
 	.row {
-	display: flex;
-	flex-wrap: wrap;
+	    display: flex;
+	    flex-wrap: wrap;
     }
 	.d-s-block {
 		display: block !important;
@@ -59,15 +59,10 @@
 	}
 /*------ cmn-sty-sd ------*/
     .image-cont img {
-		width: 20%;
+		width: 100%;
 	}
     .expert-list h3 {
-		top: 13%;
-		left: 11%;
-	}
-	.expert-list h5 {
-		top: 25%;
-		left: 11%;
+		padding-top: 12px;
 	}
     .team-id {
 		left: 16%;
@@ -83,28 +78,8 @@
 		padding-top: 120px;
 	}
 }
-@media (max-width: 280px) {
-	.image-cont img {
-		width: 25%;
-	}
-	.expert-list h3 {
-		top: 11%;
-		left: 7%;
-	}
-	.expert-list h5 {
-		top: 20%;
-		left: 7%;
-	}
-		.team-id {
-		bottom: 38%;
-		left: 10%;
-	}
-	.team-id a i {
-		margin: 0 2px;
-	}
-}
 /*-------- m-device ---------*/
-@media (min-width: 667px) and (max-width: 992px) {
+@media (min-width: 567px) and (max-width: 992px) {
 	.container {
 		margin: 0 auto;
 	}
@@ -165,31 +140,27 @@
 	}
  /*------- cmn-sty-md -------*/
     .image-cont img {
-		width: 13%;
+		width: 100%;
 	}
-	.team-id {
-		left: 20%;
-		bottom: 30%;
+	.expert-list h3 {
+		padding-top: 15px;
 	}
 	.list-logo h3 {
 		position: absolute;
 		top: 8%;
-		left: 17%;
+		left: 19%;
 	}
 	.list-logo p {
 		position: absolute;
 		top: 33%;
-		left: 17%;
+		left: 19%;
 	}
-	.expert-list h3 {
-		left: 10%;
-		top: 16%;
-		font-size: 24px;
+	.team-id a i {
+		font-size: 14px;
+		margin: 0 5px;
 	}
-	.expert-list h5 {
-		left: 10%;
-		top: 30%;
-		font-size: 20px;
+	.team-id {
+		left: 25%
 	}
 }
 /*-------- large-device ---------*/
@@ -201,7 +172,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		margin: 0 -15px;
-		padding: 0 10px;
 	}
 	.d-l-block {
 		display: block !important;
@@ -258,29 +228,24 @@
 		padding: 0 15px;
 	}
  /*------ cmn-sty-ld -------*/
-    .image-cont img {
-		width: 25%;
-	}
-	.image-cont {
-		min-height: 112px;
+    .expert-list h3 {
+		padding-top: 15px;
 	}
 	.list-logo h3 {
 		position: absolute;
 		top: 8%;
-		left: 17%;
+		left: 15%;
 	}
 	.list-logo p {
 		position: absolute;
 		top: 35%;
-		left: 17%;
+		left: 15%;
 	}
-}
-@media (min-width: 1024px) and (max-width: 1024px) {
 	.team-id a i {
 		margin: 0 5px;
 	}
 	.team-id {
-		left: 5%
+		left: 6%
 	}
 }
  /*------ v-lg-device -------*/
@@ -293,14 +258,5 @@
 		display: flex;
 		flex-wrap: wrap;
 		margin: 0 -15px;
-		padding: 0 10px;
-	}
-	.expert-list h3 {
-		top: 12%;
-		left: 12%;
-	}
-	.expert-list h5 {
-		top: 22%;
-		left: 12%;
 	}
 }
