@@ -72,10 +72,10 @@
 		text-align: center;
 	}
 	.banner-content {
-		height: 70vh;
+		height: 60vh;
 	}
 	.banner-information {
-		padding-top: 120px;
+		padding-top: 100px;
 	}
 }
 /*-------- m-device ---------*/
@@ -139,6 +139,12 @@
 		padding: 0 15px;
 	}
  /*------- cmn-sty-md -------*/
+    .banner-content {
+		height: 60vh;
+	}
+	.banner-information {
+		padding-top: 215px;
+	}
     .image-cont img {
 		width: 100%;
 	}
