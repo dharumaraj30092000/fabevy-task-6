@@ -1,7 +1,4 @@
 @media (max-width: 576px) {
-	.container {
-		margin: 0 auto;
-	}
 	.row {
 	    display: flex;
 	    flex-wrap: wrap;
@@ -59,14 +56,22 @@
 	}
 /*------ cmn-sty-sd ------*/
     .image-cont img {
-		width: 100%;
+		width: 85%;
+		height: 75%;
 	}
     .expert-list h3 {
-		padding-top: 12px;
+		padding-top: 10px;
+	}
+	.list-logo i {
+		padding: 0;
+	}
+	.team-id a i {
+		font-size: 20px;
+		margin: 0 2px;
 	}
     .team-id {
-		left: 16%;
-		bottom: 30%;
+		left: 19%;
+		bottom: 33%;
 	}
 	.text-align-center {
 		text-align: center;
@@ -80,9 +85,6 @@
 }
 /*-------- m-device ---------*/
 @media (min-width: 567px) and (max-width: 992px) {
-	.container {
-		margin: 0 auto;
-	}
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -151,29 +153,30 @@
 	.expert-list h3 {
 		padding-top: 15px;
 	}
+	.list-logo i {
+		padding: 0;
+	}
 	.list-logo h3 {
 		position: absolute;
 		top: 8%;
-		left: 19%;
+		left: 20%;
 	}
 	.list-logo p {
 		position: absolute;
 		top: 33%;
-		left: 19%;
+		left: 20%;
 	}
 	.team-id a i {
-		font-size: 14px;
+		font-size: 18px;
 		margin: 0 5px;
 	}
 	.team-id {
-		left: 25%;
+		left: 22%;
+		bottom: 28%;
 	}
 }
 /*-------- large-device ---------*/
 @media (min-width: 992px) {
-	.container {
-		margin: 0 auto;
-	}
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -248,17 +251,16 @@
 		left: 15%;
 	}
 	.team-id a i {
-		margin: 0 5px;
+		margin: 0 3px;
 	}
 	.team-id {
-		left: 6%;
+		left: 12%;
 	}
 }
  /*------ v-lg-device -------*/
 @media (min-width: 1200px) {
 	 .container {
 		width: 1170px;
-		margin: 0 auto;
 	}
 	.row {
 		display: flex;
