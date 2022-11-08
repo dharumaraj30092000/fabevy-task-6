@@ -66,12 +66,12 @@
 		padding: 0;
 	}
 	.team-id a i {
-		font-size: 20px;
+		font-size: 22px;
 		margin: 0 2px;
 	}
     .team-id {
-		left: 19%;
-		bottom: 33%;
+		left: 18%;
+		bottom: 32%;
 	}
 	.text-align-center {
 		text-align: center;
@@ -167,11 +167,11 @@
 		left: 20%;
 	}
 	.team-id a i {
-		font-size: 18px;
-		margin: 0 5px;
+		font-size: 25px;
+		margin: 0 3px;
 	}
 	.team-id {
-		left: 22%;
+		left: 20%;
 		bottom: 28%;
 	}
 }
@@ -254,7 +254,7 @@
 		margin: 0 3px;
 	}
 	.team-id {
-		left: 12%;
+		left: 10%;
 	}
 }
  /*------ v-lg-device -------*/
