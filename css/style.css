@@ -172,7 +172,7 @@
 	padding: 0 15px;
 }
 .banner-information {
-	padding-top: 210px;
+	padding-top: 240px;
 }
 .banner-information h1 {
     color: white;
@@ -433,7 +433,7 @@
 	font-size: 26px;
 	font-weight: 300;
 	margin-bottom: 15px;
-	padding-bottom: 16px;
+	padding-bottom: 17px;
 	position: relative;
 }
 .services-content h1:before {
@@ -504,7 +504,7 @@
    text-align: center;
    text-transform: uppercase;
    color:  rgb(33 31 31 / 81%);
-   padding-bottom: 14px;
+   padding-bottom: 17px;
    margin-bottom: 14px;
    position: relative;
 }
@@ -623,7 +623,7 @@
    text-align: center;
    text-transform: uppercase;
    color:  rgb(33 31 31 / 81%);
-   padding-bottom: 14px;
+   padding-bottom: 17px;
    margin-bottom: 14px;
    position: relative;
 }
@@ -708,7 +708,7 @@
    text-align: center;
    text-transform: uppercase;
    color: white;
-   padding-bottom: 16px;
+   padding-bottom: 17px;
    margin-bottom: 14px;
    position: relative;
 }
@@ -803,7 +803,7 @@ sup {
 	text-transform: uppercase;
 	margin-bottom: 14px;
 	position: relative;
-	padding-bottom: 16px;
+	padding-bottom: 17px;
 }
 .questions h1:before {
 	content:"";
@@ -874,7 +874,7 @@ sup {
    text-align: center;
    text-transform: uppercase;
    color: white;
-   padding-bottom: 16px;
+   padding-bottom: 17px;
    margin-bottom: 14px;
    position: relative;
 }
@@ -973,7 +973,7 @@ sup {
    text-align: center;
    text-transform: uppercase;
    color:  rgb(33 31 31 / 81%);
-   padding-bottom: 16px;
+   padding-bottom: 17px;
    margin-bottom: 15px;
    position: relative;
 }
@@ -1222,7 +1222,7 @@ sup {
 .web-information h5 {
 	font-family: 'raleway',sans-serif;
 	font-size: 15px;
-	padding-bottom: 9px;
+	padding-bottom: 11px;
 	margin-bottom: 10px;
 	position: relative;
 }
