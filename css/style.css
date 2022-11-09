@@ -433,7 +433,7 @@
 	font-size: 26px;
 	font-weight: 300;
 	margin-bottom: 15px;
-	padding-bottom: 15px;
+	padding-bottom: 16px;
 	position: relative;
 }
 .services-content h1:before {
@@ -503,8 +503,8 @@
    text-align: center;
    text-transform: uppercase;
    color:  rgb(33 31 31 / 81%);
-   padding-bottom: 15px;
-   margin-bottom: 15px;
+   padding-bottom: 14px;
+   margin-bottom: 14px;
    position: relative;
 }
 .advertisement-information h1:before {
@@ -621,8 +621,8 @@
    text-align: center;
    text-transform: uppercase;
    color:  rgb(33 31 31 / 81%);
-   padding-bottom: 15px;
-   margin-bottom: 15px;
+   padding-bottom: 14px;
+   margin-bottom: 14px;
    position: relative;
 }
 .expert-information h1:before {
@@ -705,8 +705,8 @@
    text-align: center;
    text-transform: uppercase;
    color: white;
-   padding-bottom: 15px;
-   margin-bottom: 15px;
+   padding-bottom: 16px;
+   margin-bottom: 14px;
    position: relative;
 }
 .cost-information h1:before {
@@ -797,9 +797,9 @@ sup {
 	text-align: center;
 	color: black;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-bottom: 14px;
 	position: relative;
-	padding: 0 15px;
+	padding-bottom: 16px;
 }
 .questions h1:before {
 	content:"";
@@ -809,7 +809,6 @@ sup {
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
-	margin-bottom: -8px;
 }
 .questions-list p {
 	border-bottom: 1px solid #9999992e;
@@ -870,8 +869,8 @@ sup {
    text-align: center;
    text-transform: uppercase;
    color: white;
-   padding-bottom: 15px;
-   margin-bottom: 15px;
+   padding-bottom: 16px;
+   margin-bottom: 14px;
    position: relative;
 }
 .team-information h1:before {
@@ -968,7 +967,7 @@ sup {
    text-align: center;
    text-transform: uppercase;
    color:  rgb(33 31 31 / 81%);
-   padding-bottom: 15px;
+   padding-bottom: 16px;
    margin-bottom: 15px;
    position: relative;
 }
@@ -1171,7 +1170,7 @@ sup {
 	text-decoration: none;
 	text-transform:capitalize;
 	display: block;
-	padding: 5px 4px 5px 4px;
+	padding: 5px 7px 5px 7px;
 }
 /*---------- web-details start -----------*/
 .web-details-content {
@@ -1182,6 +1181,7 @@ sup {
 	color: white;
 	margin-bottom: 10px;
 	display: inline-block;
+	width: 100%;
 }
 .web-information h4 {
 	font-family: 'poppins',sans-serif;
@@ -1250,24 +1250,28 @@ sup {
 	width: 100%;
 }
 #search {
-	padding: 7px 10px 7px 10px;
+	padding: 7px 84px 7px 10px;
 	margin: 4px 0;
 	border-radius: 5px;
 	border: none;
 }
 .subscribe {
 	background: #e03a3c;
-	color: white;
+	color: white !important;
 	font-family: 'poppins',sans-serif;
 	font-size: 14px;
 	position: absolute;
-	bottom: -42%;
-	right: -1%;
+	top: 0;
+	right: 0;
 	text-decoration: none;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
-	padding: 8px 12px;
+	padding: 7px 12px;
 	border: 1px solid #e03a3c
+}
+.subscribe:hover {
+	background: #fd6062f2;
+	border: 1px solid #fd6062f2;
 }
 /*---------- footer start -----------*/
 .footer-content {
