@@ -247,7 +247,7 @@
 	padding: 55px 0;
 	margin-bottom: 60px;
 }
-.skew-position:after {
+.skew-position::after {
 	content:"";
 	background: black;
 	z-index: -1;
@@ -436,7 +436,7 @@
 	padding-bottom: 17px;
 	position: relative;
 }
-.services-content h1:before {
+.services-content h1::before {
 	content:"";
 	border: 1px solid #e03a3c;
 	position: absolute;
@@ -509,7 +509,7 @@
    margin-bottom: 14px;
    position: relative;
 }
-.advertisement-information h1:before {
+.advertisement-information h1::before {
 	content:"";
 	border: 1px solid #e03a3c;
 	position: absolute;
@@ -629,7 +629,7 @@
    margin-bottom: 14px;
    position: relative;
 }
-.expert-information h1:before {
+.expert-information h1::before {
 	content:"";
 	border: 1px solid #e03a3c;
 	position: absolute;
@@ -715,7 +715,7 @@
    margin-bottom: 14px;
    position: relative;
 }
-.cost-information h1:before {
+.cost-information h1::before {
 	content:"";
 	border: 1px solid #e03a3c;
 	position: absolute;
@@ -809,7 +809,7 @@ sup {
 	position: relative;
 	padding-bottom: 17px;
 }
-.questions h1:before {
+.questions h1::before {
 	content:"";
 	border: 1px solid #e03a3c;
 	position: absolute;
@@ -883,7 +883,7 @@ sup {
    margin-bottom: 14px;
    position: relative;
 }
-.team-information h1:before {
+.team-information h1::before {
 	content:"";
 	border: 1px solid #e03a3c;
 	position: absolute;
@@ -983,7 +983,7 @@ sup {
    margin-bottom: 15px;
    position: relative;
 }
-.contact-information h1:before {
+.contact-information h1::before {
 	content:"";
 	border: 1px solid #e03a3c;
 	position: absolute;
@@ -1233,7 +1233,7 @@ sup {
 	margin-bottom: 10px;
 	position: relative;
 }
-.web-information h5:before {
+.web-information h5::before {
 	content:"";
 	border: 1px solid #e03a3c;
 	position: absolute;
