@@ -440,7 +440,8 @@
 	content:"";
 	border: 2px solid #e03a3c;
 	position: absolute;
-	padding: 0 27px;
+	width: 5%;
+	height: 0;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -511,7 +512,8 @@
 	content:"";
 	border: 2px solid #e03a3c;
 	position: absolute;
-	padding: 0 27px;
+	width: 5%;
+	height: 0;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -629,7 +631,8 @@
 	content:"";
 	border: 2px solid #e03a3c;
 	position: absolute;
-	padding: 0 27px;
+	width: 5%;
+	height: 0;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -713,7 +716,8 @@
 	content:"";
 	border: 2px solid #e03a3c;
 	position: absolute;
-	padding: 0 27px;
+	width: 5%;
+	height: 0;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -805,7 +809,8 @@ sup {
 	content:"";
 	border: 2px solid #e03a3c;
 	position: absolute;
-	padding: 0 27px;
+	width: 5%;
+	height: 0;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -877,7 +882,8 @@ sup {
 	content:"";
 	border: 2px solid #e03a3c;
 	position: absolute;
-	padding: 0 27px;
+	width: 5%;
+	height: 0;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -975,7 +981,8 @@ sup {
 	content:"";
 	border: 2px solid #e03a3c;
 	position: absolute;
-	padding: 0 27px;
+	width: 5%;
+	height: 0;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -1215,7 +1222,7 @@ sup {
 .web-information h5 {
 	font-family: 'raleway',sans-serif;
 	font-size: 15px;
-	padding-bottom: 10px;
+	padding-bottom: 9px;
 	margin-bottom: 10px;
 	position: relative;
 }
@@ -1223,9 +1230,10 @@ sup {
 	content:"";
 	border: 1px solid #e03a3c;
 	position: absolute;
-	padding: 0 12px;
 	left: 0;
 	bottom: 0;
+	width: 12%;
+	height: 0;
 }
 .web-information a {
 	text-decoration: none;
