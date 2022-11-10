@@ -438,10 +438,10 @@
 }
 .services-content h1::before {
 	content:"";
-	border: 1px solid #e03a3c;
+	background: #e03a3c;
 	position: absolute;
-	width: 5%;
-	height: 0;
+	width: 7%;
+	height: 6%;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -511,10 +511,10 @@
 }
 .advertisement-information h1::before {
 	content:"";
-	border: 1px solid #e03a3c;
+	background: #e03a3c;
 	position: absolute;
-	width: 5%;
-	height: 0;
+	width: 7%;
+	height: 6%;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -632,10 +632,10 @@
 }
 .expert-information h1::before {
 	content:"";
-	border: 1px solid #e03a3c;
+	background: #e03a3c;
 	position: absolute;
-	width: 5%;
-	height: 0;
+	width: 7%;
+	height: 6%;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -718,10 +718,10 @@
 }
 .cost-information h1::before {
 	content:"";
-	border: 1px solid #e03a3c;
+	background: #e03a3c;
 	position: absolute;
-	width: 5%;
-	height: 0;
+	width: 6%;
+	height: 6%;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -812,10 +812,10 @@ sup {
 }
 .questions h1::before {
 	content:"";
-	border: 1px solid #e03a3c;
+	background: #e03a3c;
 	position: absolute;
-	width: 5%;
-	height: 0;
+	width: 7%;
+	height: 6%;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -886,10 +886,10 @@ sup {
 }
 .team-information h1::before {
 	content:"";
-	border: 1px solid #e03a3c;
+	background: #e03a3c;
 	position: absolute;
 	width: 5%;
-	height: 0;
+	height: 6%;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -986,10 +986,10 @@ sup {
 }
 .contact-information h1::before {
 	content:"";
-	border: 1px solid #e03a3c;
+	background: #e03a3c;
 	position: absolute;
-	width: 5%;
-	height: 0;
+	width: 6%;
+	height: 6%;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -1236,12 +1236,12 @@ sup {
 }
 .web-information h5::before {
 	content:"";
-	border: 1px solid #e03a3c;
+	background: #e03a3c;
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 12%;
-	height: 0;
+	height: 8%;
 	display: block;
 }
 .web-information a {
