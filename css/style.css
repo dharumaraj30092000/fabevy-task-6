@@ -543,6 +543,7 @@
 	text-transform: uppercase;
 	padding: 6px 15px;
 	border-radius: 3px;
+	color: #545252;
 }
 .add-active {
 	background: #e03a3c !important;
