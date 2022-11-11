@@ -944,7 +944,9 @@ sup {
     justify-content: center;
 	position: absolute;
 	bottom: 36%;
-	left: 10%;
+	left: 0%;
+	width: 100%;
+	text-align: center;
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.6s ease;
