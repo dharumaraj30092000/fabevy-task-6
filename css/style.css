@@ -1333,16 +1333,17 @@ sup {
 	margin: 0 20px;
 	position: relative;
 }
-.end-crn-arrow {
+.end-crn-arrow a {
 	background: #e03a3c;
 	border-radius: 3px;
 	position: fixed;
 	right: 0;
 	bottom: 0;
 	padding: 5px 5px;
-    right: 8%;
+    right: 5%;
 	bottom: 2%;
 	z-index: 2;
+	text-decoration: none;
 }
 .end-crn-arrow i {
 	color: white;
