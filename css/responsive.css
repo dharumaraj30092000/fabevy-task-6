@@ -85,6 +85,9 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+	.d-md-none {
+		display: none !important;
+	}
 	.d-md-block {
 		display: block !important;
 	}
@@ -145,6 +148,10 @@
 	}
     .image-cont img {
 		width: 100%;
+	}
+	.skill-collection {
+	    justify-content: center;
+		padding: 0;
 	}
 	.expert-list h3 {
 		padding-top: 15px;
@@ -228,10 +235,6 @@
 		padding: 0 15px;
 	}
  /*------ cmn-sty-ld -------*/
-    .skill-collection {
-	    justify-content: center;
-		padding: 0;
-	}
     .expert-list h3 {
 		padding-top: 15px;
 	}
