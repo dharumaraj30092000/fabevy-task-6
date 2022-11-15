@@ -6,6 +6,9 @@
 	.d-s-block {
 		display: block !important;
 	}
+	.d-s-none {
+		display: none !important;
+	}
 	.col-1 {
 		width: 8.33%;
 		padding: 0 15px;
@@ -55,6 +58,10 @@
 		padding: 0 15px;
 	}
 /*------ cmn-sty-sd ------*/
+    .skill-collection {
+	    justify-content: center;
+		padding: 0;
+	}
     .image-cont img {
 		width: 85%;
 		height: 75%;
@@ -75,8 +82,15 @@
 	.banner-content {
 		height: 60vh;
 	}
-	.banner-information {
-		padding-top: 110px;
+	.flex-direction {
+		flex-direction: column-reverse !important;
+	}
+	.skill-collection {
+		font-size: 15px;
+		min-height: 50px;
+	}
+	.skill-collection i {
+		font-size: 25px;
 	}
 }
 /*-------- m-device ---------*/
@@ -143,9 +157,6 @@
     .banner-content {
 		height: 60vh;
 	}
-	.banner-information {
-		padding-top: 220px;
-	}
     .image-cont img {
 		width: 100%;
 	}
@@ -172,6 +183,12 @@
 	.team-id a i {
 		font-size: 25px;
 		margin: 0 3px;
+	}
+	.text-align-last {
+		text-align: right !important;
+	}
+	.flex-direction {
+		flex-direction: column-reverse !important;
 	}
 }
 /*-------- large-device ---------*/
@@ -268,7 +285,7 @@
 /*-------- cmn-sty-v-lg ---------*/
    .list-logo h3 {
 		position: absolute;
-		top: 8%;
+		top: 13%;
 		left: 13%;
 	}
 	.list-logo p {
