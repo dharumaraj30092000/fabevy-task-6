@@ -261,7 +261,7 @@
 /*---------- banner1 start -----------*/
 .banner-content {
 	background-image: linear-gradient( rgb(0 0 0/ 55%),rgb(0 0 0/ 56%)), url(../image/hero-bg.jpg);
-	background-position: center,top;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
