@@ -547,7 +547,7 @@
 	color: #e03a3c;
 	display: inline-block;
 	font-size: 40px;
-	padding-left: 20px;
+	padding-left: 10px;
 }
 .list-logo h3 {
 	color: white;
@@ -1169,7 +1169,7 @@ sup {
 	overflow: hidden;
 }
 #search {
-	padding: 7px 89px 7px 10px;
+	padding: 7px 80px 7px 10px;
 	margin: 4px 0;
 	border-radius: 5px;
 	border: none;
@@ -1238,8 +1238,8 @@ sup {
 	border-radius: 3px;
 	position: fixed;
 	padding: 5px 5px;
-    right: 5%;
-	bottom: 2%;
+    right: 0;
+	bottom: 1%;
 	z-index: 2;
 	text-decoration: none;
 }
