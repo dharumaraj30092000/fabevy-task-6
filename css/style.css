@@ -304,7 +304,7 @@
 	font-size: 14px;
 	text-decoration: none;
 	font-family: 'raleway',sans-serif;
-	border: none;
+	border: 2px solid #e03a3c;
 }
 .button1:hover {
 	background: none;
