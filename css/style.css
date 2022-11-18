@@ -268,7 +268,7 @@
 	height: 100vh;
 	position: relative;
 	z-index: 3;
-	margin-bottom: 35px;
+	margin-bottom: 80px;
 	padding: 0 15px;
 	display: flex;
 	align-items: center;
@@ -325,8 +325,7 @@
 }
 /*---------- option-logo start -----------*/
 .row-logo-option {
-	padding: 20px 0;
-	margin-bottom: 35px;
+	margin-bottom: 80px;
 }
 .logo-collection img {
     width: 100%;
@@ -346,7 +345,7 @@
 	z-index: 1;
 	position: relative;
 	padding: 50px 0;
-	margin-bottom: 70px;
+	margin-bottom: 110px;
 }
 .skew-position::after {
 	content:"";
@@ -460,7 +459,7 @@
 }
 /*---------- skill start -----------*/
 .skill-content {
-	margin-bottom: 35px;
+	margin-bottom: 80px;
 }
 .skill-collection {
 	background: white;
@@ -526,7 +525,7 @@
 }
 /*---------- banner2 start -----------*/
 .services {
-	margin: 50px 0;
+	margin-bottom: 110px;
 }
 .row-services-passage {
 	background: #2e2c2c;
@@ -568,8 +567,7 @@
 }
 /*---------- advertisement start -----------*/
 .advertisement-content {
-	padding-top: 20px;
-	margin: 50px 0;
+	margin-bottom: 90px;
 }
 .add-logo-list {
 	font-family: 'raleway',sans-serif;
@@ -658,8 +656,7 @@
 }
 /*---------- expert-content start -----------*/
 .expert-content {
-	padding-top: 20px;
-	margin: 50px 0;
+	margin-bottom: 110px;
 }
 .expert-list {
 	padding: 30px 10px 30px 30px;
@@ -713,8 +710,7 @@
 }
 /*---------- cost start -----------*/
 .cost {
-	padding-top: 40px;
-	margin: 50px 0;
+	margin-bottom: 110px;
 }
 .row-cost-passage {
 	background: #444444;
@@ -776,8 +772,7 @@ sup {
 }
 /*---------- questions-content start -----------*/
 .questions-content {
-	padding-top: 20px;
-	margin: 50px 0;
+	margin-bottom: 110px;
 }
 .questions-list {
 	padding-top: 60px;
@@ -827,8 +822,7 @@ sup {
 }
 /*---------- banner3 start -----------*/
 .team {
-	padding-top: 40px;
-	margin: 50px 0;
+	margin-bottom: 110px;
 }
 .row-team-passage {
 	margin-bottom: 30px;
@@ -898,8 +892,7 @@ sup {
 }
 /*---------- forms start -----------*/
 .contact-content {
-	padding-top: 20px;
-	margin: 50px 0;
+	margin-bottom: 60px;
 }
 .location-details {
 	background: white;
