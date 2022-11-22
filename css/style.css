@@ -1137,6 +1137,9 @@ sup {
 	height: 2px;
 	display: block;
 }
+.web-information ul li {
+	list-style: none;
+}
 .web-information a {
 	text-decoration: none;
 	color: #999;
