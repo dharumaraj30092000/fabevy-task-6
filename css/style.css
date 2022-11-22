@@ -1143,7 +1143,7 @@ sup {
 .web-information a {
 	text-decoration: none;
 	color: #999;
-	display: block;
+	display: inline-block;
 	text-transform: capitalize;
 	margin-bottom: 15px;
 	font-family: 'poppins',sans-serif;
