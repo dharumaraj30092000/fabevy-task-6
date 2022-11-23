@@ -34,14 +34,14 @@
 	font-weight: 300;
 	padding-bottom: 15px;
 	position: relative;
-	display: inline;
+	display: inline-block;
 }
 .cmn-design h1::before {
 	content:"";
 	background: #e03a3c;
 	position: absolute;
-	width: 40px;
-	height: 3px;
+	width: 20%;
+	height: 5%;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -62,17 +62,16 @@
 	font-family: 'raleway',sans-serif;
 	font-size: 26px;
 	font-weight: 300;
-	margin-bottom: 20px;
 	padding-bottom: 17px;
 	position: relative;
-	display: inline;
+	display: inline-block;
 }
 .cmn-design-w h1::before {
 	content:"";
 	background: #e03a3c;
 	position: absolute;
-	width: 40px;
-	height: 3px;
+	width: 20%;
+	height: 5%;
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%);
@@ -95,7 +94,6 @@
 	top: 0;
 	left: 0;
 	z-index: 4;
-	margin-bottom: 20px;
 }
 .logo-name > a {
 	font-size: 28px;
@@ -663,6 +661,7 @@
 	border-radius: 5px;
 	box-shadow: 0px 0px 9px -2px #999;
 	margin-bottom: 20px;
+	min-height: 284px;
 }
 .image-cont {
 	width: 100%;

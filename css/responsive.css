@@ -67,7 +67,7 @@
 		height: 75%;
 	}
     .expert-list h3 {
-		padding-top: 10px;
+		padding-top: 7px;
 	}
 	.list-logo i {
 		padding: 0;
@@ -76,14 +76,11 @@
 		font-size: 25px;
 		margin: 0 2px;
 	}
-	.text-align-center {
-		text-align: center;
-	}
-	.banner-content {
-		height: 60vh;
-	}
 	.flex-direction {
 		flex-direction: column-reverse !important;
+	}
+	.text-align-center {
+		text-align: center !important;
 	}
 	.skill-collection {
 		font-size: 15px;
@@ -186,6 +183,9 @@
 	}
 	.text-align-last {
 		text-align: right !important;
+	}
+	.text-align-m-center {
+		text-align: center !important;
 	}
 	.flex-direction {
 		flex-direction: column-reverse !important;
