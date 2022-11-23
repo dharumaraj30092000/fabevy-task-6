@@ -4,7 +4,6 @@
 	margin: 0 auto;
 }
 .row > * {
-	padding: 0 10px;
 	width: 100%;
 }
 .d-none {
@@ -538,7 +537,7 @@
 }
 .list-logo {
 	display: inline-block;
-	min-height: 50px;
+	min-height: 70px;
 }
 .list-logo i {
 	color: #e03a3c;
@@ -552,12 +551,14 @@
 	font-size: 20px;
 	font-weight: 300;
 	margin-bottom: 10px;
+	position: absolute;
 }
 .list-logo p {
 	color: white;
 	font-family: 'poppins',sans-serif;
 	font-size: 14px;
 	line-height: 25px;
+	position: absolute;
 }
 .list-logo h3:hover {
 	text-decoration: underline;
@@ -1012,6 +1013,10 @@ sup {
 	text-transform: capitalize;
 	color: #999;
 }
+.frm {
+	display: flex;
+	padding: 10px 15px 0 15px;
+}
 .forms-details {
 	padding: 10px 0;
 }
@@ -1032,6 +1037,12 @@ sup {
 	border: 1px solid #999;
 	text-transform: capitalize;
 	width: 100%;
+}
+.frm-1 {
+	margin-right: 15px;
+}
+.frm-2 {
+	margin-left: 15px;
 }
 #sub {
 	padding: 7px 20px;
