@@ -32,18 +32,12 @@
 	font-size: 26px;
 	font-weight: 300;
 	padding-bottom: 15px;
-	position: relative;
-	display: inline-block;
 }
-.cmn-design h1::before {
-	content:"";
-	background: #e03a3c;
-	position: absolute;
-	width: 20%;
-	height: 5%;
-	left: 50%;
-	bottom: 0;
-	transform: translateX(-50%);
+.text-dec {
+    background: #e03a3c;
+    width: 45px;
+    height: 3px;
+    margin: 0 auto;
 }
 .cmn-design p {
 	color: white;
@@ -62,18 +56,6 @@
 	font-size: 26px;
 	font-weight: 300;
 	padding-bottom: 17px;
-	position: relative;
-	display: inline-block;
-}
-.cmn-design-w h1::before {
-	content:"";
-	background: #e03a3c;
-	position: absolute;
-	width: 20%;
-	height: 5%;
-	left: 50%;
-	bottom: 0;
-	transform: translateX(-50%);
 }
 .cmn-design-w p {
 	color: #999;
@@ -538,6 +520,7 @@
 .list-logo {
 	display: inline-block;
 	min-height: 70px;
+    padding-left: 12px;
 }
 .list-logo i {
 	color: #e03a3c;
