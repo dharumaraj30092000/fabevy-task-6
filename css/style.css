@@ -511,37 +511,35 @@
 	width: 100%;
 	height: auto;
 	border-radius: 3px;
-	margin-bottom: 15px;
-	padding: 20px 8px;
-	position: relative;
-	min-height: 150px;
+	padding: 20px 0;
 	margin-bottom: 30px;
 }
+.l-flex {
+	display: flex;
+	min-height: 120px;
+	padding-left: 12px;
+}
 .list-logo {
-	display: inline-block;
 	min-height: 70px;
-    padding-left: 12px;
+	padding-right: 15px;
 }
 .list-logo i {
 	color: #e03a3c;
-	display: inline-block;
 	font-size: 40px;
-	padding-left: 10px;
 }
-.list-logo h3 {
+.list-logo-content h3 {
 	color: white;
 	font-family: 'raleway',sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	margin-bottom: 10px;
-	position: absolute;
 }
-.list-logo p {
+.list-logo-content p {
 	color: white;
 	font-family: 'poppins',sans-serif;
 	font-size: 14px;
 	line-height: 25px;
-	position: absolute;
+	padding-right: 7px;
 }
 .list-logo h3:hover {
 	text-decoration: underline;
@@ -641,21 +639,28 @@
 	margin-bottom: 110px;
 }
 .expert-list {
-	padding: 30px 10px 30px 30px;
+	padding: 25px 0;
+	padding-left: 20px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 9px -2px #999;
 	margin-bottom: 20px;
-	min-height: 284px;
+	min-height: 265px;
+}
+.e-flex {
+	display: inline-flex;
 }
 .image-cont {
-	width: 100%;
+	width: 70px;
+	height: 20px;
 	display: inline-block;
 }
 .image-cont img {
 	width: 100%;
 	height: auto;
 	border-radius: 7px;
-	margin-bottom: 15px;
+}
+.image-person {
+	padding-left: 20px;
 }
 .expert-list h3 {
 	font-family: 'raleway',sans-serif;
@@ -676,10 +681,14 @@
 	font-family: 'poppins',sans-serif;
 	font-size: 14px;
 	font-style: italic;
+	padding-right: 7px;
 }
 .expert-list i {
 	color: #e03a3c;
 	opacity: 0.2;
+}
+.test-para {
+	margin-top: 15px;
 }
 .test-para p i:first-child {
 	display: inline-block;
@@ -759,6 +768,7 @@ sup {
 }
 .questions-list {
 	padding-top: 60px;
+	padding: 0 10px;
 }
 .questions-list p {
 	color: black;
