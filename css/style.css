@@ -201,7 +201,7 @@
 	font-family: 'raleway',sans-serif;
 	font-size: 14px;
 	font-weight: 600;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 18px 10px 18px;
 }
 .header-btn-1 {
 	color: white;
@@ -209,6 +209,7 @@
 	font-family: 'raleway',sans-serif;
 	font-size: 14px;
 	font-weight: 600;
+	padding: 5px 10px;
 }
 .logo-nav .header-btn {
 	color: white !important;
@@ -767,13 +768,14 @@ sup {
 	margin-bottom: 110px;
 }
 .questions-list {
-	padding-top: 60px;
-	padding: 0 10px;
+	padding: 40px 10px;
 }
 .questions-list p {
 	color: black;
 	font-family: 'poppins',sans-serif;
 	font-size: 14px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
 }
 .questions-list i {
 	color: black;
