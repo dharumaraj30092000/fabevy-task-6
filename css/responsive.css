@@ -79,6 +79,12 @@
 	.skill-collection i {
 		font-size: 25px;
 	}
+	.qut-border-down:hover {
+		padding-bottom: 65px;
+	}
+	.hid-para {
+		top: 35px;
+	}
 	.frm {
 		padding: 0;
 	}
